@@ -7,7 +7,7 @@ rf_model = joblib.load('rf_model.pkl')
 # Load columns names of x (features) dataframe
 x_columns_names = pd.read_csv('x.csv').columns
 # Load mean price per in² of artists
-artists_mean_price_per_inch = pd.read_csv('../analysis/models/saatchi_artists_mean_price_per_inch.csv')
+artists_mean_price_per_inch = pd.read_csv('saatchi_artists_mean_price_per_inch.csv')
 
 def get_df_for_model(characteristics):
 
