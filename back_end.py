@@ -2,10 +2,10 @@ import joblib
 import pandas as pd
 
 # Load the model
-rf_model = joblib.load('../analysis/models/rf_model.pkl')
+rf_model = joblib.load('models/rf_model.pkl')
 
 # Load columns names of x (features) dataframe
-x_columns_names = pd.read_csv('../analysis/models/x.csv').columns
+x_columns_names = pd.read_csv('models/x.csv').columns
 # Load mean price per in² of artists
 artists_mean_price_per_inch = pd.read_csv('../analysis/models/saatchi_artists_mean_price_per_inch.csv')
 
