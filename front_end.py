@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     body {
-        color: #000000;
+        color: #ffffff;
         font-family: Arial, sans-serif;
         line-height: 1.6;
     }
